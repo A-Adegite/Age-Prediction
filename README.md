@@ -13,7 +13,7 @@ Link to dataset: https://drive.google.com/file/d/1-2eE_YfqDO7uow5W-MQOubifqsm1xS
 ### Feature Selection & Engineering  
 - **Feature Selection:** Recursive Feature Elimination (RFE)  
 
-### Model Development & Exploration  
+### Model Exploration  & Development 
 - **Linear Regression**  
 - **Random Forest Regression**  
 
