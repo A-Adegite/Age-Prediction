@@ -35,6 +35,6 @@ The Linear Regression model achieved the highest accuracy, with an **MAE (Mean A
 | **Linear Regression** | **97.66** | **9.88** | **0.87** | **7.3** |
 | **Random Forest** | 122.38 | 11.06 | 0.84 | 8.5 |
 
-These results highlight the effectiveness of using a **simpler, more interpretable model** (Linear Regression) for **DNA methylation-based age prediction**, while avoiding unnecessary computational complexity. 🚀  
+These results highlight the effectiveness of using a **simpler, more interpretable model** (Linear Regression) for **DNA methylation-based age prediction**, while avoiding unnecessary computational complexity. 
 
 
