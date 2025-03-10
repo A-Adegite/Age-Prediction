@@ -25,11 +25,16 @@ Link to dataset: https://drive.google.com/file/d/1-2eE_YfqDO7uow5W-MQOubifqsm1xS
  
 ### Key Insights & Results  
 
-**Feature Selection Improves Model Efficiency:**  
-We identified the top 20 CpG sites that retain predictive power, reducing model complexity without compromising accuracy.  
+Feature selection identified the top 20–30 CpG sites that retained predictive power, significantly reducing model complexity without compromising accuracy. By focusing on these most informative features 
+## Best Model Performance  
 
-**Best Model Performance:**
-The Linear Regression model achieved the highest accuracy with an MAE of **X** years, outperforming the baseline Linear Regression methods.  
+The Linear Regression model achieved the highest accuracy, with an **MAE (Mean Absolute Error) of 7.3 years**, outperforming the **Random Forest Regression model** and other baseline approaches.  
 
-**Biological Relevance:**  
-The most predictive CpG sites were associated with known ageing-related genes, aligning with epigenetic clock research.  
+| Model              | MSE   | RMSE  | R² Score | MAE  |
+|--------------------|------|------|----------|------|
+| **Linear Regression** | **97.66** | **9.88** | **0.87** | **7.3** |
+| **Random Forest** | 122.38 | 11.06 | 0.84 | 8.5 |
+
+These results highlight the effectiveness of using a **simpler, more interpretable model** (Linear Regression) for **DNA methylation-based age prediction**, while avoiding unnecessary computational complexity. 🚀  
+
+
